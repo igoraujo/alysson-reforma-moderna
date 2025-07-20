@@ -167,11 +167,11 @@ All colors MUST be HSL.
 
 @layer components {
   .btn-primary {
-    @apply bg-primary hover:bg-primary-dark text-primary-foreground font-medium px-6 py-3 rounded-lg transition-all duration-300 shadow-soft hover:shadow-primary;
+    @apply bg-primary hover:bg-primary-dark text-primary-foreground font-medium px-6 py-3 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl;
   }
 
   .btn-accent {
-    @apply bg-accent hover:bg-accent-dark text-accent-foreground font-medium px-6 py-3 rounded-lg transition-all duration-300 shadow-soft hover:shadow-accent;
+    @apply bg-accent hover:bg-accent-dark text-accent-foreground font-medium px-6 py-3 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl;
   }
 
   .btn-outline {
@@ -183,7 +183,7 @@ All colors MUST be HSL.
   }
 
   .card-elevated {
-    @apply bg-card border border-border rounded-xl shadow-medium hover:shadow-large transition-all duration-300;
+    @apply bg-card border border-border rounded-xl shadow-lg hover:shadow-xl transition-all duration-300;
   }
 
   .section-padding {
@@ -205,7 +205,7 @@ All colors MUST be HSL.
 
   /* Service card hover effects */
   .service-card {
-    @apply group relative overflow-hidden bg-card border border-border rounded-xl transition-all duration-300 hover:shadow-large hover:-translate-y-1;
+    @apply group relative overflow-hidden bg-card border border-border rounded-xl transition-all duration-300 hover:shadow-xl hover:-translate-y-1;
   }
 
   .service-card::before {
@@ -219,7 +219,7 @@ All colors MUST be HSL.
 
   /* Professional section styling */
   .professional-card {
-    @apply relative overflow-hidden rounded-xl bg-card border border-border transition-all duration-300 hover:shadow-large group;
+    @apply relative overflow-hidden rounded-xl bg-card border border-border transition-all duration-300 hover:shadow-xl group;
   }
 
   .professional-card::after {
@@ -250,10 +250,10 @@ All colors MUST be HSL.
   }
 
   .whatsapp-float {
-    @apply bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-large;
+    @apply bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-xl;
   }
 
   .phone-float {
-    @apply bottom-24 right-6 bg-primary hover:bg-primary-dark text-primary-foreground p-4 rounded-full shadow-large;
+    @apply bottom-24 right-6 bg-primary hover:bg-primary-dark text-primary-foreground p-4 rounded-full shadow-xl;
   }
 }
