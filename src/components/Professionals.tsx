@@ -79,7 +79,7 @@ const Professionals = () => {
           {professionals.map((professional, index) => {
             const Icon = professional.icon;
             return (
-              <div key={index} className="professional-card">
+              <div key={index} className="professional-card group">
                 {/* Professional Image */}
                 <div className="relative h-64 overflow-hidden">
                   <img

@@ -205,7 +205,7 @@ All colors MUST be HSL.
 
   /* Service card hover effects */
   .service-card {
-    @apply group relative overflow-hidden bg-card border border-border rounded-xl transition-all duration-300 hover:shadow-xl hover:-translate-y-1;
+    @apply relative overflow-hidden bg-card border border-border rounded-xl transition-all duration-300 hover:shadow-xl hover:-translate-y-1;
   }
 
   .service-card::before {
@@ -219,7 +219,7 @@ All colors MUST be HSL.
 
   /* Professional section styling */
   .professional-card {
-    @apply relative overflow-hidden rounded-xl bg-card border border-border transition-all duration-300 hover:shadow-xl group;
+    @apply relative overflow-hidden rounded-xl bg-card border border-border transition-all duration-300 hover:shadow-xl;
   }
 
   .professional-card::after {

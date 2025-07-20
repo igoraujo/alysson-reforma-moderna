@@ -81,7 +81,7 @@ const Services = () => {
           {mainServices.map((service, index) => {
             const Icon = service.icon;
             return (
-              <div key={index} className="service-card p-6 space-y-6">
+              <div key={index} className="service-card group p-6 space-y-6">
                 {/* Service Image */}
                 <div className="relative overflow-hidden rounded-lg h-48">
                   <img
